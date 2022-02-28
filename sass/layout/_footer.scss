@@ -1,0 +1,88 @@
+@import "../base/config";
+
+.footer {
+	background-color: $dark-grey;
+}
+
+.social {
+	width: 1.2rem;
+}
+
+.facebook-logo {
+	background-color: #3b5998;
+}
+.linkedin-logo {
+	background-color: #0097da;
+}
+.twitter-logo {
+	background-color: #00ccff;
+}
+
+//  floating labels
+.form-group {
+	position: relative;
+}
+
+.form-group .form-label {
+	position: absolute;
+	top: -0.3rem;
+	transition: all 0.3s;
+}
+
+.form-input:-moz-placeholder-shown + .form-label,
+.form-textarea:-moz-placeholder-shown + .form-label {
+	transform: translateY(3rem);
+}
+
+.form-input:not(:focus) + .form-label,
+.form-textarea:not(:focus) + .form-label {
+	transform: translateY(3rem);
+}
+
+.form-group .form-input,
+.form-group .form-textarea {
+	background-color: $darker-grey;
+	border: 1px solid $black;
+	text-indent: 0.5rem;
+}
+
+::-webkit-input-placeholder {
+	color: transparent;
+}
+
+::-moz-placeholder {
+	color: transparent;
+}
+
+:-ms-input-placeholder {
+	color: transparent;
+}
+
+::-ms-input-placeholder {
+	color: transparent;
+}
+
+::placeholder {
+	color: transparent;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+	outline: none;
+	border: 1px solid $blue;
+}
+
+.btn {
+	font-size: 1.1rem;
+	background-color: $blue;
+	padding: 1rem 1.5rem 0.8rem;
+	line-height: 1;
+}
+
+.btn:hover {
+	background-color: $dark-blue;
+}
+
+.info {
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
+}

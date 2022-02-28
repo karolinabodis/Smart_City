@@ -1,0 +1,68 @@
+@import "../base/config";
+
+// NAVBAR
+.bg-dark {
+	background-color: rgba(2, 2, 3, 0.5) !important;
+}
+
+.nav {
+	font-size: 1.1rem;
+	letter-spacing: 0.03em;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+	background-color: $blue;
+}
+
+.navbar-dark .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(255, 255, 255)' stroke-linecap='' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+	border: none;
+	border-radius: 0;
+	font-size: 1.8rem;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+	background-color: $blue;
+}
+
+.dropdown-toggle::after {
+	margin-left: 0.5rem;
+}
+
+.hide-dropdown-toggle::after {
+	// hide the caret
+	border-top: 0;
+}
+
+.dropdown-menu {
+	border: none;
+	margin: 0;
+	padding: 0;
+	font-size: 1.1rem;
+	min-width: 8.4rem;
+}
+
+.dropdown-item {
+	background-color: $blue;
+	border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.indent {
+	text-indent: 4rem;
+}
+
+.dropdown-link:hover {
+	background-color: $dark-blue;
+}
+
+.border-top {
+	border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+// @import "../../node_modules/bootstrap/scss/bootstrap";

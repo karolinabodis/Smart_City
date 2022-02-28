@@ -1,0 +1,29 @@
+@import "../base/config";
+
+// HERO SECTION
+.hero--image {
+	background: url("/images/hero-img.png") center center/cover no-repeat;
+	height: 580px;
+}
+
+.hero--text {
+	height: 580px;
+}
+
+.carousel-item > h4 {
+	line-height: 1.5;
+}
+
+.hero--text > h1 {
+	font-size: 3rem;
+}
+
+.blue-link {
+	color: $blue;
+	text-decoration: underline;
+}
+
+.blue-link:hover {
+	color: $dark-blue;
+	text-decoration: none;
+}

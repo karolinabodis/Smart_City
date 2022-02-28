@@ -1,0 +1,58 @@
+// Overriding Bootstrap variables
+
+// Define font family
+$font-family-base: "Roboto", sans-serif;
+
+// Define new spacers
+$spacer: 1rem;
+$spacers: ();
+$spacers: map-merge(
+	(
+		0: 0,
+		1: (
+			$spacer * 0.25,
+			// 4px
+		),
+		2: (
+			$spacer * 0.5,
+			// 8px
+		),
+		3: $spacer,
+		// 16px
+		4:
+			(
+				$spacer * 1.5,
+				// 24px
+			),
+		5: (
+			$spacer * 2,
+			// 32px
+		),
+		6: (
+			$spacer * 2.5,
+			// 40px
+		),
+		7: (
+			$spacer * 3,
+			// 48px
+		),
+		8: (
+			$spacer * 3.5,
+			// 56px
+		),
+		9: (
+			$spacer * 4.5,
+			// 72px
+		),
+		10: (
+			$spacer * 6.5,
+			// 88px
+		),
+	),
+	$spacers
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import "base/config", "base/typography", "layout/navigation",
+	"components/carousel", "layout/header", "layout/main", "layout/footer";
