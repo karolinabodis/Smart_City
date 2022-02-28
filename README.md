@@ -1,8 +1,12 @@
 # <h1 align="center">Smart City</h1>
 
-[<p align="center"><img src="" width="400"/></p>](https://karolinabodis.github.io/the-one-thing-app/)
+### Desktop view:
 
-[<p align="center"><img src="" width="400"/></p>](https://karolinabodis.github.io/the-one-thing-app/)
+<img src="https://user-images.githubusercontent.com/78912800/156063667-f0056027-fbde-40bf-bf4a-5f8e5b460f66.png" width="800"/>
+
+### Mobile view:
+
+<img src="https://user-images.githubusercontent.com/78912800/156063727-ee3c54db-fcf9-4238-ac27-bc6c93b7116b.png" width="400"/>
 
 ## Description
 
@@ -18,7 +22,7 @@ A single page website built with HTML5, CSS3(SASS) and JavaScript.
 
 ## Known Issues
 
-- in IE 11 the toggler not working properly: dropdown menu rendering issue (caused by position: relative)
+- In IE 11 the toggler not working properly: dropdown menu rendering issue (caused by position: relative)
 
 ## Tools Used
 
