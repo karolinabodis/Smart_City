@@ -8,6 +8,14 @@
 
 <img src="https://user-images.githubusercontent.com/78912800/156063727-ee3c54db-fcf9-4238-ac27-bc6c93b7116b.png" width="400"/>
 
+## Build Setup
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
 ## Description
 
 A single page website built with HTML5, CSS3(SASS) and JavaScript.
